@@ -1,0 +1,41 @@
+h3 {
+  text-align: center;
+  margin: 20px auto;
+  padding: 10px;
+  width: 50%;
+}
+
+.container {
+  display: flex;
+  justify-content: center; /* Fixed: center aligns single-child containers */
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=button] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 4px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#output {
+  font-weight: bold;
+  color: #333;
+  min-height: 20px;
+}
